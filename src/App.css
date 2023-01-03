@@ -142,6 +142,7 @@ h4 {
   display: flex;
   justify-content: center;
   margin-top: 20vh;
+  margin-bottom: -4vw;
 }
 
 .name-container-1 {
@@ -176,7 +177,7 @@ h4 {
   /* height: calc(12px + 11.0vw); */
   top: .1vw;
   /* left: 18px; */
-  height: calc(12px + 8.95vw);
+  /* height: calc(12px + 8.95vw); */
   margin-bottom: 5px;
 }
 
@@ -189,7 +190,7 @@ h4 {
   font-weight: 100;
   color: orange;
   width: 60%;
-  height: calc(12px + 8.75vw);
+  /* height: calc(12px + 8.75vw); */
   margin-bottom: 5px;
 
 
@@ -205,6 +206,8 @@ h4 {
   /* right: 34px;
   top: 3px; */
   color: white;
+  position: relative;
+  bottom: 1em;
 }
 
 .fullstack {
@@ -216,6 +219,8 @@ h4 {
   font-style: normal;
   font-weight: 100;
   color: orange;
+  position: relative;
+  bottom: 1.15em;
   /* top: -20px; */
 
   /* text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white;  */
