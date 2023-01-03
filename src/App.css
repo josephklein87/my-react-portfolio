@@ -177,6 +177,7 @@ h4 {
   top: .1vw;
   /* left: 18px; */
   height: calc(12px + 8.95vw);
+  margin-bottom: 5px;
 }
 
 .my-name {
@@ -189,6 +190,7 @@ h4 {
   color: orange;
   width: 60%;
   height: calc(12px + 8.75vw);
+  margin-bottom: 5px;
 
 
   /* top: -20px; */
