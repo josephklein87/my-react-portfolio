@@ -406,6 +406,14 @@ i {
   transition: color 1s;
 }
 
+.icon-div {
+  text-align: center;
+}
+
+.icon-div p {
+  margin-top: 1vw;
+}
+
 .html:hover {
   color: rgb(220, 54, 30); 
 }
