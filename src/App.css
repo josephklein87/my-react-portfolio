@@ -181,7 +181,7 @@ h4 {
 .my-name {
   font-size: calc(12px + 9.3vw);
   margin: 0px;
-  margin-bottom: -.258em ;
+  margin-bottom: -7%;
   font-family: bigjohn;
   font-style: normal;
   font-weight: 100;
@@ -196,7 +196,7 @@ h4 {
 
 .full-stack-text {
   margin: 0;
-  margin-top: -2.1vw;
+  margin-top: -11%;
   font-size: calc(3px + 2.5vw);
   font-family: slimjoe;
   /* right: 34px;
@@ -383,7 +383,7 @@ h4 {
   writing-mode: vertical-lr; */
   font-size: calc(12px + 4vw);
   margin: 0;
-  margin-bottom: -3vw;
+  margin-bottom: -.5em;
 }
 
 p {
