@@ -173,7 +173,7 @@ h4 {
   color: white;
   margin:0;
   position: relative;
-  height: calc(12px + 11.0vw);
+  /* height: calc(12px + 11.0vw); */
   top: .1vw;
   /* left: 18px; */
 }
@@ -181,12 +181,13 @@ h4 {
 .my-name {
   font-size: calc(12px + 9.3vw);
   margin: 0px;
+  margin-bottom: -.258em ;
   font-family: bigjohn;
   font-style: normal;
   font-weight: 100;
   color: orange;
   width: 60%;
-  height: calc(12px + 8.75vw);
+  /* height: calc(12px + 8.75vw); */
 
 
   /* top: -20px; */
