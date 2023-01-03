@@ -57,7 +57,7 @@ function Home() {
    </div>
    <div className="name-container-2">
         <h1 className="my-name">
-        KLEIN
+        KLEIN!
         </h1>
         <div className="software-develop">
         <h1 className="fullstack">
