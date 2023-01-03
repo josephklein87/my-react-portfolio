@@ -5,6 +5,7 @@ import linkedin from '../images/linkedin-logo.png'
 import github from '../images/github-logo.png'
 import arrow from '../images/arrow-fat-down.png'
 import { Link } from "react-scroll"
+import cv from "../images/Joe Klein Software Developer Resume.pdf"
 
 
 
@@ -79,7 +80,7 @@ function Home() {
         <img className="fat-arrow" src={arrow} />
         }
     </div></Link>
-    <div className="see-resume" onMouseEnter={resumeSwitchIcon} onMouseLeave={resumeSwitchText} onClick={resumeSwitchIcon}>
+    <a href={cv} target='_blank' rel="noreferrer noopener"><div className="see-resume" onMouseEnter={resumeSwitchIcon} onMouseLeave={resumeSwitchText} onClick={resumeSwitchIcon}>
         {!resumeButton ?
         <h4>R E S U M E</h4>
         :
@@ -89,7 +90,7 @@ function Home() {
         </svg>
         </>
         }
-    </div>
+    </div></a>
     <a href="https://www.linkedin.com/in/joseph-p-klein" target='_blank' rel="noreferrer noopener"><div className="see-linkedin" onMouseEnter={linkedSwitchIcon} onMouseLeave={linkedSwitchText} onClick={linkedSwitchIcon}>
         {!linkedinButton ?
         <h4>L I N K E D I N</h4>
