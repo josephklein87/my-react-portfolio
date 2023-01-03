@@ -4,8 +4,8 @@ import '../App.css';
 function Skills() {
 
     return (
-     <div id="skills" className="skills-container">
-     <h1 className="skills-header">SKILLS</h1>
+     <div className="skills-container">
+     <h1 id="skills" className="skills-header">SKILLS</h1>
      <div className="skill-icons">
       
       <div className="icon-div">

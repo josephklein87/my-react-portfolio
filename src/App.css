@@ -13,9 +13,19 @@
   src: url('./fonts/Kabel Book BT_0.ttf')
 }
 
+#root {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position:relative;
+  left: 20;
+}
 
 html {
   background-color: rgb(0, 0, 29);
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 a {
@@ -105,7 +115,7 @@ h4 {
   background-color: rgb(0, 0, 29);
   padding: 0;
   margin-top: 0;
-  padding-top: 140px;
+  padding-top: 100px;
 }
 
 .menu-link {
@@ -581,7 +591,7 @@ i {
 /* CONTACT ME */
 
 .contact-container {
-  margin-bottom: 250px;
+  margin-bottom: 400px;
 }
 
 .contact-header {
@@ -595,7 +605,7 @@ i {
 .ContactForm {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -610,14 +620,18 @@ i {
   border: 1px solid white;
   padding: 20px;
   border-radius: 10px;
-  width: 12.5vw;
-  height: 3.35vw;
+  width: 18vw;
+  height: 8vw;
   margin: 2vw;
   color: white;
   margin-left: auto;
   margin-right: auto;
   font-family: kabel;
-  font-size: calc(10px + 1vw)
+  font-size: calc(15px + 1vw);
+  min-width: 104.75px;
+  min-height: 46.55px;
+  max-width: 120px;
+  max-height: 80px
 }
 
 .submit-btn:hover {
@@ -634,25 +648,27 @@ i {
 
 .name-submit, .email-submit {
   width: 100%;
+  max-height: 50px;
 }
 
 input {
   margin: .5vw;
-  height: 3vw;
+  height: 4vw;
   font-family: kabel;
   border-radius: 10px;
   padding: 5px;
-  font-size: 1.5vw
+  font-size: calc(12px + 1.5vw);
+  max-height: 50px;
 }
 
 textarea {
   margin: .5vw;
-  height: 10vw;
+  height: 15vw;
   font-family: kabel;
   border-radius: 10px;
   padding: 5px;
-  font-size: 1.5vw;
-  
+  font-size: calc(12px + 1.5vw);
+  min-height: 250px;
 }
 
 .errorMessage {
@@ -665,7 +681,7 @@ textarea {
 
 @media only screen and (max-width: 800px) {
   .button-container {
-    width: 400px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
     position: static;
@@ -772,10 +788,49 @@ textarea {
 
   .nav-links {
     display:none;
+  
   }
 
+  li {
+    margin-right: 0;
+  }
+
+  .contact-row-1 {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+
+  .name-submit, .email-submit {
+    width: 100%
+  }
+
+  .ContactForm {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  input {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  textarea {
+    width: 90%;
+    font-size: 20px;
+    height: 200px;
+  }
+  
   .nav-bar {
     text-align: center;
+  }
+
+  .name-container {
+    margin-top: 40px;
   }
 
 }
