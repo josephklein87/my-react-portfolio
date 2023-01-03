@@ -176,18 +176,19 @@ h4 {
   /* height: calc(12px + 11.0vw); */
   top: .1vw;
   /* left: 18px; */
+  height: calc(12px + 8.95vw);
 }
 
 .my-name {
   font-size: calc(12px + 9.3vw);
   margin: 0px;
-  margin-bottom: -7%;
+  /* margin-bottom: -7%; */
   font-family: bigjohn;
   font-style: normal;
   font-weight: 100;
   color: orange;
   width: 60%;
-  /* height: calc(12px + 8.75vw); */
+  height: calc(12px + 8.75vw);
 
 
   /* top: -20px; */
@@ -196,7 +197,7 @@ h4 {
 
 .full-stack-text {
   margin: 0;
-  margin-top: -11%;
+  /* margin-top: -11%; */
   font-size: calc(3px + 2.5vw);
   font-family: slimjoe;
   /* right: 34px;
