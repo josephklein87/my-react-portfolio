@@ -224,7 +224,7 @@ h4 {
 
 .home-message {
   color: white;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom:40px;
   /* background-color: white; */
   /* width: 800px; */
@@ -628,6 +628,7 @@ i {
   height: 8vw;
   margin: 2vw;
   color: white;
+  margin-top: .5em;
   margin-left: auto;
   margin-right: auto;
   font-family: kabel;
@@ -714,7 +715,7 @@ textarea {
   }
 
   .name-container {
-    margin-top: 150px;
+    margin-top: 50px;
   }
 
   .home-container {
@@ -730,9 +731,6 @@ textarea {
 
 @media only screen and (max-width: 600px) {
 
-  .name-container {
-    margin-top: 150px;
-  }
 
 
   .skills-container {
