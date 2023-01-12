@@ -2,7 +2,6 @@
 import { useForm } from 'react-hook-form';
 import '../App.css';
 import emailjs from 'emailjs-com';
-// require('dotenv').config()
 
 
 const ContactForm = () => {
