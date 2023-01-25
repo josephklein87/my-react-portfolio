@@ -3,6 +3,7 @@ import '../App.css';
 import unwatchables from '../images/unwatchables.png'
 import recipeapp from '../images/recipeapp.png'
 import wishlist from '../images/wshlst.png'
+import letsgo from '../images/letsgo.png'
 
 function Projects() {
     let [currentProject, setCurrentProject] = useState('start')
@@ -14,6 +15,8 @@ function Projects() {
             setCurrentProject("chef")
         } else if (e.target.id === "wishlistapp") {
             setCurrentProject("wishlist")
+        } else if (e.target.id === "letsgo") {
+            setCurrentProject("letsgo")
         }
     }
 
@@ -25,6 +28,7 @@ function Projects() {
                 <img className="project-img" id="unwatchables" src={unwatchables} onClick={projectClick} />
                 <img className="project-img" id="recipeapp" src={recipeapp} onClick={projectClick} />
                 <img className="project-img" id="wishlistapp" src={wishlist} onClick={projectClick} />
+                <img className="project-img" id="letsgo" src={letsgo} onClick={projectClick} />
             </div>
             <div className="project-text-container">
             
@@ -79,6 +83,26 @@ function Projects() {
                         <p className="project-button-text">D E M O</p>
                     </div></a>
                     <a href="https://github.com/josephklein87/WishList-FrontEnd" target='_blank' rel="noreferrer noopener"><div className="projects-button">
+                        <p className="project-button-text">G I T H U B</p>
+                    </div></a>
+                </div>
+                </>
+
+                :
+                null
+                }
+
+                {(currentProject==='letsgo') ?
+
+                <>
+                <h5 className="project-text project-text-header">LETS<span className="big-text">GO</span></h5>
+                <p className="project-text">Created with: HTML, CSS, React, Postgres</p>
+                <p className="project-text">LETSGO is an app where users can post and find events in their area, as well as save events to their profile using a relational database.</p>
+                <div className="project-button-container">
+                <a href="https://letsgo.herokuapp.com/" target='_blank' rel="noreferrer noopener"><div className="projects-button">
+                        <p className="project-button-text">D E M O</p>
+                    </div></a>
+                    <a href="https://github.com/josephklein87/LETSGO-frontend" target='_blank' rel="noreferrer noopener"><div className="projects-button">
                         <p className="project-button-text">G I T H U B</p>
                     </div></a>
                 </div>
