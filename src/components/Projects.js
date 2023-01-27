@@ -4,7 +4,6 @@ import unwatchables from '../images/unwatchables.png'
 import recipeapp from '../images/recipeapp.png'
 import wishlist from '../images/wshlst.png'
 import letsgo from '../images/letsgo.png'
-
 function Projects() {
     let [currentProject, setCurrentProject] = useState('start')
 

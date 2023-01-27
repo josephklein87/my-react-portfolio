@@ -498,9 +498,8 @@ i {
 }
 
 .project-img {
-  width: 30vw;
+  width: 22vw;
   margin: 10px;
-  min-width: 200px;
   border: white solid .2vw;
   border-radius: 2vw;
   transition: all .2s ease-in-out;
@@ -835,6 +834,15 @@ textarea {
 
   .name-container {
     margin-top: 40px;
+  }
+
+  .project-img {
+    width: 150px !important;
+    margin: 5px;
+  }
+
+  .project-images {
+    width: 375px;
   }
 
 }
